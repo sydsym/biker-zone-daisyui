@@ -29,6 +29,7 @@
               customOrange: "#E76F51",
               customPink: "rgba(231, 111, 81, 0.1)",
               customSky: "#23A6F0",
+              customNavy: "rgba(11, 13, 23, 1)",
             },
           },
         },
@@ -42,8 +43,8 @@
       }
     </style>
   </head>
-  <body data-theme="light" class="px-10">
-    <header>
+  <body data-theme="light">
+    <header class="px-10">
       <!-- navbar -->
       <nav class="navbar">
         <div class="navbar-start">
@@ -91,7 +92,7 @@
       </nav>
     </header>
 
-    <main>
+    <main class="px-10">
       <!-- slider -->
       <section>
         <div class="carousel w-full">
@@ -446,6 +447,112 @@
           </div>
         </div>
       </section>
+      <!-- faq section  -->
+      <section>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 justify-center items-center"
+        >
+          <div class="w-full">
+            <img src="src/others/faq.png" class="w-2/3 block m-auto" alt="" />
+          </div>
+          <div>
+            <div
+              class="collapse collapse-arrow border border-gray-300 rounded-lg py-3 my-3"
+            >
+              <input type="radio" name="my-accordion-2" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                What are the most important things I should know about riding a
+                bike?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+            <div
+              class="collapse collapse-arrow border border-gray-300 rounded-lg py-3 my-3"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                How can I tell if my helmet is old and I need a new one?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+            <div
+              class="collapse collapse-arrow border border-gray-300 rounded-lg py-3 my-3"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                My bike has been in storage is it safe to ride?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+            <div
+              class="collapse collapse-arrow border border-gray-300 rounded-lg py-3 my-3"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">
+                What rules should I follow when riding my bike?
+              </div>
+              <div class="collapse-content">
+                <p>
+                  Safety First! Always obey the rules of the road. Obey all
+                  traffic signals, signs, and laws. Get in the mindset of
+                  “driving” your bike—not just “riding” your bike. This will
+                  help you be a more focused and legally compliant bike rider.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer bg-customNavy text-neutral-content p-10">
+      <aside>
+        <nav>
+          <a class="link link-hover">Download Now</a>
+          <a class="link link-hover">License</a>
+        </nav>
+        <nav>
+          <a class="link link-hover">About</a>
+          <a class="link link-hover">Features</a>
+          <a class="link link-hover">Pricing</a>
+          <a class="link link-hover">Careers</a>
+          <a class="link link-hover">Help</a>
+          <a class="link link-hover">Privacy Policy</a>
+        </nav>
+        <p class="text-sm font-semibold">
+          Copyright © 2024 - All right reserved
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Get The App</h6>
+        <div class="grid grid-flow-col gap-4">
+          <a href="#"
+            ><img class="max-w-[150px]" src="src/others/ios.png" alt="" /></a
+          ><a href=""
+            ><img class="max-w-[150px]" src="src/others/android.png" alt=""
+          /></a>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
